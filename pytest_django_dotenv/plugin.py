@@ -7,7 +7,7 @@ def pytest_addoption(parser):
     parser.addini(
         "env_path",
         type="linelist",
-        help="path to .env from $VIRTUAL_ENV"
+        help="path to .env from $VIRTUAL_ENV",
         default=['.env']
     )
 
